@@ -6,15 +6,23 @@
 	<artifactId>MovieStatusChecker</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	 
-	 <dependencies>
-			<dependency>
-				<!-- jsoup HTML parser library @ https://jsoup.org/ -->
-				<groupId>org.jsoup</groupId>
-				<artifactId>jsoup</artifactId>
-				<version>1.11.3</version>
-			</dependency>
-		</dependencies>
- 
+
+	<plugin>
+		<groupId>org.apache.maven.plugins</groupId>
+		<artifactId>maven-war-plugin</artifactId>
+		<configuration>
+			<webXml>WebContent\WEB-INF\web.xml</webXml>
+		</configuration>
+	</plugin>
+
+	<dependencies>
+		<dependency>
+			<!-- jsoup HTML parser library @ https://jsoup.org/ -->
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.11.3</version>
+		</dependency>
+	</dependencies>
+
 
 </project>
