@@ -7,8 +7,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	 
-	<dependencies>
-		<dependencies>
+	 <dependencies>
 			<dependency>
 				<!-- jsoup HTML parser library @ https://jsoup.org/ -->
 				<groupId>org.jsoup</groupId>
@@ -16,7 +15,6 @@
 				<version>1.11.3</version>
 			</dependency>
 		</dependencies>
-	</dependencies>
-
+ 
 
 </project>
