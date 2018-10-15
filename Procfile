@@ -1,1 +1,1 @@
-web: java -jar target/java-getting-started-1.0.jar
+web: java -jar target/spring3-mvc-maven-xml-hello-world-1.0-SNAPSHOT.war
